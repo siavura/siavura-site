@@ -15,6 +15,14 @@ export default async function Contact({ params }: { params: Promise<{ locale: st
         <div className="rounded-[2rem] border border-white/10 bg-white/[.02] p-8 sm:p-10">
           <div className="text-[10px] uppercase tracking-[0.25em] text-white/35">Email</div>
           <a href={`mailto:${c.contact.email}`} className="mt-5 block break-all text-2xl text-[#ead5a7] hover:text-white">{c.contact.email}</a>
+          <a
+            href={`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(c.contact.email)}`}
+            target="_blank"
+            rel="noreferrer"
+            className="mt-3 inline-flex text-[10px] uppercase tracking-[0.22em] text-white/35 hover:text-white"
+          >
+            {locale === "it" ? "Apri in Gmail" : "Open in Gmail"} →
+          </a>
           <div className="mt-10 text-[10px] uppercase tracking-[0.25em] text-white/35">Website</div>
           <div className="mt-4 text-sm text-white/55">siavura.com</div>
           <div className="mt-10 flex gap-5 text-sm"><Link href={`/${locale}`} className="text-white/45 hover:text-white">← {c.nav.home}</Link><Link href={`/${locale}/projects`} className="text-white/45 hover:text-white">{c.nav.projects} →</Link></div>

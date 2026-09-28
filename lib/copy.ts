@@ -100,7 +100,7 @@ export const copy = {
       { number: "02", title: "Comprensione", subtitle: "Trasformare la complessità in chiarezza.", body: "Vedere un problema non basta. Colleghiamo informazioni, processi, persone e tecnologia per capire cosa sta realmente succedendo. Trasformiamo la complessità in qualcosa che può essere compreso, misurato e usato per agire.", image: "/images/understanding.jpg" },
       { number: "03", title: "Trasformazione", subtitle: "Portare la comprensione all'azione.", body: "La comprensione crea possibilità. Trasformiamo idee in sistemi digitali, strumenti intelligenti e soluzioni pratiche. Dalla visione all'esecuzione.", image: "/images/transformation.jpg" },
     ],
-    reveal: { kicker: "La firma", title: "Percepisci. Comprendi. Trasforma.", body: "Tre fasi. Una direzione: intelligenza che diventa azione.", quote: "From perception to action." },
+    reveal: { kicker: "La firma", title: "Percepisci. Comprendi. Trasforma.", body: "Tre fasi. Una direzione: intelligenza che diventa azione.", quote: "Dalla percezione all'azione." },
     solutions: {
       kicker: "Cosa facciamo", title: "Tecnologia costruita intorno al tuo business.", body: "SIAVURA unisce software, AI e sistemi digitali per risolvere problemi concreti — senza aggiungere tecnologia fine a sé stessa.",
       items: [["AI", "Assistenti intelligenti, sistemi di conoscenza e workflow con AI applicata."], ["Software", "Web app, strumenti interni e sviluppo di prodotti digitali."], ["Automazione", "Processi più veloci, con meno lavoro ripetitivo."], ["Dati", "Dashboard, insight e sistemi che rendono utile l'informazione."], ["Digital", "Siti web, esperienze digitali e infrastruttura aziendale."], ["Content", "Sistemi visuali e video per brand moderni."]],
